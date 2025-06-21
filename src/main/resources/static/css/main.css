@@ -1,0 +1,55 @@
+body {
+font-family: Calibri,sans-serif;
+
+}
+.navbar {
+   background-color: #000000;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 1rem;
+    align-items: stretch; /* Растягиваем карточки на всю высоту */
+}
+
+
+.btn-primary {
+    background-color: rgb(12, 12, 12);
+    border-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #3a3737;
+    border-color: #504c4c;
+}
+
+/* Скрыть меню на всех экранах */
+.collapse.navbar-collapse {
+    display: none;
+}
+
+/* Показать меню при нажатии на кнопку бургера */
+.collapse.navbar-collapse.show {
+    display: block;
+}
+
+.custom-burger-icon {
+    background-color: #fff; /* Белый цвет иконки */
+    width: 24px; /* Ширина иконки */
+    height: 24px;
+}
+
+.nav-item p {
+    margin-bottom: 5px; /* или любое другое значение */
+}
+
+body {
+       font-family: "Times New Roman", sans-serif;
+
+
+}
+
